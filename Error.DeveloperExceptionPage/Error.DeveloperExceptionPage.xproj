@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>403a245a-34de-4e11-9488-fb08314017f6</ProjectGuid>
-    <RootNamespace>Dotnet</RootNamespace>
+    <ProjectGuid>b9fa2b1c-cfdd-4dc4-91c8-c0afb50a435e</ProjectGuid>
+    <RootNamespace>Error.DeveloperExceptionPage</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
