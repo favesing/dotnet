@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "xunit": "2.2.0-beta4-build3444",
+    "Microsoft.Extensions.Configuration": "1.2.0-preview1-23015",
+    "Microsoft.Extensions.Configuration.Binder": "1.2.0-preview1-23015"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+
+  "testRunner": "xunit"
+}
