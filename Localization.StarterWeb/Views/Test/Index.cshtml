@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Localization.StarterWeb
+@inject IViewLocalizer Localizer;
+
+@{
+    ViewData["Title"] = Localizer["About"];
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>@Localizer["Use this area to provide additional information."]</p>

@@ -8,7 +8,10 @@
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
     "Microsoft.Extensions.Logging.Console": "1.0.0",
-    "Microsoft.AspNetCore.Mvc": "1.2.0-preview1-23015"
+    "Microsoft.AspNetCore.Mvc.Core": "1.2.0-preview1-23015",
+    "Microsoft.AspNetCore.Mvc": "1.2.0-preview1-23015",
+    "Microsoft.Extensions.Localization.Abstractions": "1.2.0-preview1-23015",
+    "Microsoft.AspNetCore.Mvc.Localization": "1.2.0-preview1-23015"
   },
 
   "tools": {
